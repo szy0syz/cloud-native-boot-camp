@@ -84,3 +84,38 @@
     - 国内用户建议设置 goproxy: `export GOPROXY=https://goproxy.cn`
 
 > 最好写到 `.zshrc` 里。
+
+### 常用数据结构
+
+- 常量 const identifier type
+- 变量 var identifier type
+
+#### 变量定义
+
+- 变量
+  - var 语句用于声明一个变量列表，跟函数的参数列表一样，类型在最后。
+  - var c, python, java bool
+- 变量的初始化
+  - 变量声明可以包含初始值，每个变量对应一个。
+  - 如果初始化值已存在，则可以省略类型;变量会从初始值中获得类型。
+  - vari,jint=1,2
+- 短变量声明
+  - 在函数中，简洁赋值语句 := 可在类型明确的地方代替 var 声明。
+  - 函数外的每个语句都必须以关键字开始(var, func 等等)，因此 := 结构不能在函数外使用。
+  - c, python, java := true, false, "no!"
+
+#### 切片
+
+- 切片是对数组一个连续片段的引用
+- 数组定义中不指定长度即为切片
+  - varidentifier[]type
+- 切片在未初始化之前默认为nil，长度为0
+- 常用方法
+
+#### Make 和 New
+
+- New返回指针地址
+- Make返回第一个元素，可预设内存空间，避免未来的内存拷贝
+- 示例
+
+![002](./images/002.png)
