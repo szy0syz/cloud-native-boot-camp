@@ -39,7 +39,7 @@
 - 云原生涉及到的知识面很广，不懂的概念不用急于求成，反 复训练可强化理解。
 - 实践出真知，多听，多学，多练。
 
-## Go语言特性
+## 03-Go语言特性
 
 ### 为什么需要 Go 语言
 
@@ -120,8 +120,18 @@
 
 ![002](./images/002.png)
 
-## Docker
+## 04-Go语言进阶
+
+## 05-Docker
 
 ![05_001](images/docker/05_001.png)
 
 ![05_002](images/docker/05_002.png)
+
+## 06-Kubernetes 架构原则和对象设计
+
+## 07-Kubernetes 控制平面组件 etcd
+
+## 08-Kubernetes 控制平面组件 API Server
+
+## 09-Kubernetes 控制平面组件 调度器和控制器
