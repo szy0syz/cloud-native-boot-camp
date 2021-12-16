@@ -137,8 +137,16 @@
 
 ![x001](images/X001.jpeg)
 
-## 07-Kubernetes 控制平面组件 etcd
+## 07-Kubernetes 控制平面组件: etcd
 
-## 08-Kubernetes 控制平面组件 API Server
+## 08-Kubernetes 控制平面组件: API Server
 
-## 09-Kubernetes 控制平面组件 调度器和控制器
+## 09-Kubernetes 控制平面组件: 调度器和控制器
+
+## 10-生命周期管理和服务发现
+
+## 11-生产化集群运维
+
+## 12-Kubernetes 的生产化运维
+
+## 13-将应用迁移至 Kubernetes 平台
